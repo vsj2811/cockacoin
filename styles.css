@@ -1,0 +1,70 @@
+body {
+    background-color: #191970;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+#coin-image {
+    width: 500px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff
+}
+
+#coin-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#coin-description {
+    font-size: 22px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#frase01 {
+    font-size: 20px;
+    color: white;
+}
+
+
+#learn-more {
+    font-size: 16px;
+    color: #007bff;
+}
+
+/*
+.translations {
+    margin-top: 50px;
+}
+
+.translation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
+.translations {
+    position: relative;
+}
+
+.translation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #333;
+}
