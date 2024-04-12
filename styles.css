@@ -5,6 +5,33 @@ body {
     padding: 20px;
 }
 
+header {
+    color: white;
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
 .container {
     max-width: 600px;
     margin: auto;
