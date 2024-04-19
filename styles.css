@@ -39,12 +39,14 @@ nav ul li a:hover {
 }
 
 #coin-image {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
+    height: auto; 
     margin-bottom: 20px;
     border-radius: 50%;
     border: 2px solid #007bff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff
+    background-color: #fff;
 }
 
 #coin-name {
@@ -55,9 +57,11 @@ nav ul li a:hover {
 }
 
 #coin-description {
-    font-size: 22px;
-    color: #666;
-    margin-bottom: 20px;
+    font-style: italic;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: inline-block;
 }
 
 #frase01 {
@@ -71,27 +75,11 @@ nav ul li a:hover {
     color: #007bff;
 }
 
-/*
-.translations {
-    margin-top: 50px;
-}
 
-.translation {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-*/
 .translations {
-    position: relative;
-}
-
-.translation {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
-    color: #333;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
 }
