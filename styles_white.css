@@ -12,9 +12,6 @@ header {
     text-align: center;
     position: relative;
 }
-.home-link {
-    color: #fff;
-}
 
 header .home-link {
     position: absolute;
@@ -65,4 +62,8 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+footer a {
+    color: #a8a8a8;
 }
