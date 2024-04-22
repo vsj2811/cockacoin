@@ -72,6 +72,7 @@ nav ul li a:hover {
     border-radius: 10px;
     background-color: #fff;
     display: inline-block;
+    text-align: center;
 }
 
 #frase01 {
@@ -92,4 +93,27 @@ nav ul li a:hover {
     display: block;
     margin-bottom: 10px;
     color: #fff;
+}
+
+.social-links {
+    text-align: center;
+    margin-bottom: 20px; /* Espaço entre o texto e os ícones */
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px; /* Espaço entre os ícones */
+}
+
+.social-links img {
+    width: 50px; /* Tamanho dos ícones */
+    height: 50px;
+    transition: transform 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.social-links img:hover {
+    transform: scale(1.2); /* Efeito de escala ao passar o mouse */
 }
