@@ -20,7 +20,10 @@
             <img id="coin-image" src="CockaCoin-Trnsp.png" alt="Cocka Coin Image">
             <h1 id="coin-name">Cocka Coin (COCKA)</h1>
             <p id="coin-description"><strong>The Cockatiel Coin</strong></p>
-            <p id="coin-description">Token Address: <strong>0xA0FCac60B239e9fDa5eA35085dE3307A5dd5D908</strong><br>(BSC Network)</p>
+            <p id="coin-description"><a href="https://pancakeswap.finance/swap?outputCurrency=0xA0FCac60B239e9fDa5eA35085dE3307A5dd5D908" target="_blank">Trade on PancakeSwap</a></p>
+            <p id="token-address">Token Address: <strong id="contract-address">0xA0FCac60B239e9fDa5eA35085dE3307A5dd5D908</strong></p>
+            <p id="token-address">(BSC Network)</p>
+            <button onclick="copyToClipboard()">Copy Token Address</button>
             <p id="frase01">The new world currency in honor of our beloved cockatiels.</p>
             <div class="social-links">
                 <a href="https://www.youtube.com/@CockaCoin" target="_blank"><img src="Youtube-Icon.png" alt="Cocka Coin's YouTube Channel"></a>
@@ -120,5 +123,19 @@
             <p class="translation">The Parrotlet Riyal</p>
             <p class="translation">The Parrotlet Rupiah</p>
         </div>
+        <footer>
+            <a href="buy.html" class="footer-link" target="_blank">How to buy the coin</a>
+            <p>&copy; 2024 Cocka Coin. All rights reserved.</p>
+        </footer>
+        <script>
+            function copyToClipboard() {
+                var contractAddress = document.getElementById('contract-address').innerText;
+                navigator.clipboard.writeText(contractAddress).then(function() {
+                    alert('Token Address copied to clipboard: ' + contractAddress);
+                }, function(err) {
+                    console.error('Failed to copy: ', err);
+                });
+            }
+        </script>
     </body>
 </html>
