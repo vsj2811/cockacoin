@@ -97,7 +97,7 @@ nav ul li a:hover {
 
 .social-links {
     text-align: center;
-    margin-bottom: 20px; /* Espaço entre o texto e os ícones */
+    margin-bottom: 20px;
     background-color: #007bff;
     padding: 10px;
     border-radius: 50%;
@@ -105,15 +105,61 @@ nav ul li a:hover {
 
 .social-links a {
     display: inline-block;
-    margin-right: 10px; /* Espaço entre os ícones */
+    margin-right: 10px; 
 }
 
 .social-links img {
-    width: 50px; /* Tamanho dos ícones */
+    width: 50px; 
     height: 50px;
-    transition: transform 0.3s ease; /* Transição suave ao passar o mouse */
+    transition: transform 0.3s ease; 
 }
 
 .social-links img:hover {
-    transform: scale(1.2); /* Efeito de escala ao passar o mouse */
+    transform: scale(1.2);
+}
+
+#token-address {
+    font-size: 16px;
+    color: #999;
+}
+
+#contract-address {
+    color: #007bff;
+    font-weight: bold;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000;
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: #fff;
+    color: #191970;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #a8a8a8;
+}
+
+footer .footer-link {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 10px;
 }
